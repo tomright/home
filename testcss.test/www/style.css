@@ -1,0 +1,14 @@
+html {
+    background-color: rgb(95, 168, 250);
+    font-size: 20px;
+  }
+  
+  ul {
+    background: rgb(126, 229, 236);
+    padding: 10px;
+    border: 1px solid black;
+  }
+  
+  li {
+    margin-left: 20px;
+  }
