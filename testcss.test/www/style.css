@@ -12,3 +12,7 @@ html {
   li {
     margin-left: 20px;
   }
+  p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+  }
