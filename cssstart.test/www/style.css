@@ -1,7 +1,17 @@
-* {
+body {
     background-color: bisque;
 }
 nav {
     border: brown;
+    border-style: groove;
+}
+@media screen and (max-width: 1279px) {
+    body {
+        background-color: blue;
+    }
+}
+section {
+    padding: 50px 100px 250px 300px;
+    border: chocolate;
     border-style: groove;
 }
