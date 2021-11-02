@@ -1,5 +1,5 @@
 body {
-    background-color: bisque;
+    background: red url(backg.jpg) 10px 10px repeat-x fixed;
 }
 nav {
     border: brown;
