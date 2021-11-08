@@ -4,7 +4,11 @@ body {
 nav {
     border: brown;
     border-style: groove;
-
+}
+ul {
+    display: flex;
+    list-style-type: none;
+    box-sizing: border-box;
 }
 nav:active {
     border: blue;
@@ -20,6 +24,12 @@ section {
     border: chocolate;
     border-style: groove;
 }
+li {
+    border: red;
+    border-style: double;
+    width: 10000px;
+    text-align: center;
+}
 li::first-letter {
     font-size: 2em;
     font-style: oblique;
@@ -30,4 +40,15 @@ li::first-letter {
 } */
 p:active {
     font-style: italic;
+}
+.content {
+    border: chocolate;
+    border-style: groove;
+
+}
+iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
 }
