@@ -1,14 +1,22 @@
-body {
-    background: red url(backg.jpg) 10px 10px repeat-x fixed;
+html {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(204,63,45,1) 64%, rgba(0,212,255,1) 100%);
 }
+
+body {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgb(194, 190, 255) 0%, rgba(204,63,45,1) 64%, rgba(0,212,255,1) 100%);
+}
+
 nav {
     border: brown;
     border-style: groove;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgb(123, 121, 161) 0%, rgb(247, 184, 173) 64%, rgba(0,212,255,1) 100%);
 }
 ul {
     display: flex;
     list-style-type: none;
-    box-sizing: border-box;
 }
 nav:active {
     border: blue;
@@ -23,12 +31,20 @@ section {
     padding: 50px 100px 250px 300px;
     border: chocolate;
     border-style: groove;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgb(123, 121, 161) 0%, rgb(247, 184, 173) 64%, rgba(0,212,255,1) 100%);
+    width: 720px;
+    height: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 li {
     border: red;
     border-style: double;
     width: 10000px;
     text-align: center;
+
 }
 li::first-letter {
     font-size: 2em;
