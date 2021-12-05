@@ -9,9 +9,10 @@ body {
 }
 
 nav {
-    border: brown;
-    border-style: groove;
-    background: rgb(2,0,36);
+    border-bottom: brown;
+    border-bottom-style: double;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
     background: linear-gradient(90deg, rgb(123, 121, 161) 0%, rgb(247, 184, 173) 64%, rgba(0,212,255,1) 100%);
 }
 ul {
@@ -27,14 +28,27 @@ nav:active {
         background-color: blue;
     }
 }
+.vertical-rl {
+    writing-mode: vertical-rl;
+    display: inline-flex;
+    color: white;
+    background-color: black;
+}
+.vertical-lr {
+    display: inline-flex;
+    writing-mode: vertical-lr;
+    color: white;
+    background-color: black;
+}
 section {
-    padding: 50px 100px 250px 300px;
+    padding: 10px 100px 50px ;
     border: chocolate;
     border-style: groove;
+    border-radius: 10px;
     background: rgb(2,0,36);
     background: linear-gradient(90deg, rgb(123, 121, 161) 0%, rgb(247, 184, 173) 64%, rgba(0,212,255,1) 100%);
     width: 720px;
-    height: 1280px;
+    height: auto;
     margin-left: auto;
     margin-right: auto;
 
@@ -42,6 +56,7 @@ section {
 li {
     border: red;
     border-style: double;
+    border-radius: 10px;
     width: 10000px;
     text-align: center;
 
@@ -67,4 +82,10 @@ iframe {
     margin-left: auto;
     margin-right: auto;
     padding: 10px;
+}
+section > h1 {
+    padding: 0px 0px 0px 0px;
+    border: chocolate;
+    border-style: groove;
+    border-radius: 10px;   
 }
