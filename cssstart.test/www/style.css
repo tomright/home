@@ -89,3 +89,20 @@ section > h1 {
     border-style: groove;
     border-radius: 10px;   
 }
+.overfoluStandart {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+}
+.overfoluHidden {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+}
+.overfoluScroll {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    overflow: scroll;
+}
