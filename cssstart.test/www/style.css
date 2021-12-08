@@ -94,8 +94,30 @@ div > h1 {
     margin-bottom: 0px;
     margin-top: 0px;
     border: chocolate;
+<<<<<<< HEAD
     border-bottom-style: groove;
     margin-left: auto;
     margin-right: auto;
     width: 920px;
+=======
+    border-style: groove;
+    border-radius: 10px;   
+}
+.overfoluStandart {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+}
+.overfoluHidden {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+}
+.overfoluScroll {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    overflow: scroll;
+>>>>>>> d35733020cc43c210d3cbb84df7a87505a7bbe94
 }
