@@ -48,6 +48,7 @@ nav:active {
 }
 section {
     padding: 10px 100px 50px ;
+    width: 720px;
 
 
 }
@@ -98,4 +99,18 @@ div > h1 {
     margin-left: auto;
     margin-right: auto;
     width: 920px;
+}
+.overfoluStandart {
+    overflow: visible;
+    width: auto;
+}
+
+.overfoluHidden {
+    overflow: hidden;
+    width: auto;
+}
+.overfoluScroll {
+    overflow: scroll;
+    width: auto;
+    height: 100px;
 }
