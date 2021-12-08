@@ -40,18 +40,28 @@ nav:active {
     color: white;
     background-color: black;
 }
+.horizontal-tb {
+    writing-mode: horizontal-bt;
+    color: white;
+    background-color: black;
+    display: inline-flex;
+}
 section {
     padding: 10px 100px 50px ;
+
+
+}
+div {
     border: chocolate;
+    display: block;
     border-style: groove;
     border-radius: 10px;
     background: rgb(2,0,36);
     background: linear-gradient(90deg, rgb(123, 121, 161) 0%, rgb(247, 184, 173) 64%, rgba(0,212,255,1) 100%);
-    width: 720px;
+    width: 920px;
     height: auto;
     margin-left: auto;
     margin-right: auto;
-
 }
 li {
     border: red;
@@ -75,17 +85,17 @@ p:active {
 .content {
     border: chocolate;
     border-style: groove;
-
+    margin-left: auto;
+    padding: 10px;
+    width: auto;
 }
-iframe {
-    display: block;
+
+div > h1 {
+    margin-bottom: 0px;
+    margin-top: 0px;
+    border: chocolate;
+    border-bottom-style: groove;
     margin-left: auto;
     margin-right: auto;
-    padding: 10px;
-}
-section > h1 {
-    padding: 0px 0px 0px 0px;
-    border: chocolate;
-    border-style: groove;
-    border-radius: 10px;   
+    width: 920px;
 }
