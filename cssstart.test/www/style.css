@@ -40,18 +40,29 @@ nav:active {
     color: white;
     background-color: black;
 }
+.horizontal-tb {
+    writing-mode: horizontal-bt;
+    color: white;
+    background-color: black;
+    display: inline-flex;
+}
 section {
     padding: 10px 100px 50px ;
+    width: 720px;
+
+
+}
+div {
     border: chocolate;
+    display: block;
     border-style: groove;
     border-radius: 10px;
     background: rgb(2,0,36);
     background: linear-gradient(90deg, rgb(123, 121, 161) 0%, rgb(247, 184, 173) 64%, rgba(0,212,255,1) 100%);
-    width: 720px;
+    width: 920px;
     height: auto;
     margin-left: auto;
     margin-right: auto;
-
 }
 li {
     border: red;
@@ -75,37 +86,46 @@ p:active {
 .content {
     border: chocolate;
     border-style: groove;
-
+    margin-left: auto;
+    padding: 10px;
+    width: auto;
 }
-iframe {
-    display: block;
+
+div > h1 {
+    margin-bottom: 0px;
+    margin-top: 0px;
+    border: chocolate;
+    border-bottom-style: groove;
     margin-left: auto;
     margin-right: auto;
-    padding: 10px;
-}
-section > h1 {
-    padding: 0px 0px 0px 0px;
-    border: chocolate;
-    border-style: groove;
-    border-radius: 10px;   
+    width: 920px;
 }
 .overfoluStandart {
+<<<<<<< HEAD
     display: inline-block;
     width: 100px;
     height: 100px;
     border: 2px solid black;
+=======
+    overflow: visible;
+    width: auto;
+>>>>>>> 5e06fb90f475088f4085b7311a7519082c261702
 }
+
 .overfoluHidden {
-    display: inline-block;
-    width: 100px;
-    height: 100px;
     overflow: hidden;
+<<<<<<< HEAD
     border: 2px solid black;
+=======
+    width: auto;
+>>>>>>> 5e06fb90f475088f4085b7311a7519082c261702
 }
 .overfoluScroll {
-    display: inline-block;
-    width: 100px;
-    height: 100px;
     overflow: scroll;
+<<<<<<< HEAD
     border: 2px solid black;
+=======
+    width: auto;
+    height: 100px;
+>>>>>>> 5e06fb90f475088f4085b7311a7519082c261702
 }
