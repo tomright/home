@@ -101,31 +101,21 @@ div > h1 {
     width: 920px;
 }
 .overfoluStandart {
-<<<<<<< HEAD
     display: inline-block;
     width: 100px;
     height: 100px;
     border: 2px solid black;
-=======
-    overflow: visible;
-    width: auto;
->>>>>>> 5e06fb90f475088f4085b7311a7519082c261702
 }
 
 .overfoluHidden {
     overflow: hidden;
-<<<<<<< HEAD
+    width: 100px;
+    height: 100px;
     border: 2px solid black;
-=======
-    width: auto;
->>>>>>> 5e06fb90f475088f4085b7311a7519082c261702
 }
 .overfoluScroll {
     overflow: scroll;
-<<<<<<< HEAD
-    border: 2px solid black;
-=======
-    width: auto;
+    width: 100px;
     height: 100px;
->>>>>>> 5e06fb90f475088f4085b7311a7519082c261702
+    border: 2px solid black;
 }
