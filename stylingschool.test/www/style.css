@@ -1,0 +1,212 @@
+/* General setup */
+@font-face {
+  font-family: 'aganlight';
+  src: url('/Fonts/agane_45_light-webfont.woff2') format('woff2'),
+       url('/Fonts/agane_45_light-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+@font-face {
+  font-family: 'agan_sregular';
+  src: url('/Fonts/agane_55_roman_sign-webfont.woff2') format('woff2'),
+       url('/Fonts/agane_55_roman_sign-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'aganregular';
+  src: url('/Fonts/agane_55_roman-webfont.woff2') format('woff2'),
+       url('/Fonts/agane_55_roman-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'agan_sbold';
+  src: url('/Fonts/agane_65_bold_sign-webfont.woff2') format('woff2'),
+       url('/Fonts/agane_65_bold_sign-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'aganbold';
+  src: url('/Fonts/agane_65_bold-webfont.woff2') format('woff2'),
+       url('/Fonts/agane_65_bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'agan_sextra_bold';
+  src: url('/Fonts/agane_75_extra_bold_sign-webfont.woff2') format('woff2'),
+       url('/Fonts/agane_75_extra_bold_sign-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'aganextra_bold';
+  src: url('/Fonts/agane_75_extra_bold-webfont.woff2') format('woff2'),
+       url('/Fonts/agane_75_extra_bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'aganlight';
+  src: url('/Fonts/agane_45_light-webfont.woff2') format('woff2'),
+       url('/Fonts/agane_45_light-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'agan_sregular';
+  src: url('/Fonts/agane_55_roman_sign-webfont.woff2') format('woff2'),
+       url('/Fonts/agane_55_roman_sign-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+* {
+  box-sizing: border-box;
+  font-family: 'aganlight';
+}
+
+body {
+  margin: 0 auto;
+  min-width: 1000px;
+  max-width: 1400px;
+}
+
+/* Layout */
+
+section {
+  float: left;
+  width: 50%;
+}
+
+aside {
+  float: left;
+  width: 30%;
+}
+
+nav {
+  float: left;
+  width: 20%;
+}
+
+footer {
+  clear: both;
+}
+
+header, section, aside, nav, footer {
+  padding: 20px;
+}
+
+/* header and footer */
+
+header, footer {
+  border-top: 5px solid #a66;
+  border-bottom: 5px solid #a66;
+}
+
+/* WRITE YOUR CODE BELOW HERE */
+html {
+  font-size: 10px;
+}
+header > h1 {
+  font-size: 5em;
+  text-align: center;
+  letter-spacing: 0.08em;
+}
+h2 {
+  font-size: 3em;
+  letter-spacing: 0.08em;
+}
+p, ol, ul {
+  font-size: 1.6em;
+  line-height: 1.5em;
+  word-spacing: 1px;
+}
+
+section > h2 + p::first-letter {
+  margin-left: 1em;
+}
+a {
+  outline: none;
+}
+a[href*="http"] {
+  background: url(/iconslink.png) no-repeat 100% 0;
+  background-size: 16px 16px;
+  padding-right: 19px;
+}
+a:link {
+  color: #a66;  
+}
+a:visited {
+  color: red;
+}
+a:focus {
+  background: rgba(255,83,83, 0.31);
+  color:black;
+  text-decoration: none;
+}
+a:hover {
+  background: rgba(170,102,102, 0.31);
+  color:black;
+  text-decoration: none;
+}
+a:active {
+  color: black;
+  background-color: rgba(14, 10, 243, 0.31);
+}
+ul {
+  list-style: square;
+}
+nav > ul > li {
+  list-style: none;
+  border: solid 1px #a66;
+  margin: 20px;
+  padding: 20px;
+
+}
+nav > ul {
+  text-align: center;
+}
+nav > ul > li > a {
+  text-decoration: none;
+}
