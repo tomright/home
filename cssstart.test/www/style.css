@@ -222,3 +222,7 @@ a[href*="http"] {
   background-size: 16px 16px;
   padding-right: 19px;
 }
+.container {
+  column-width: 200px;
+  column-rule: 4px dotted orange;
+}
