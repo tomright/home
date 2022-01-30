@@ -9,7 +9,9 @@
 </head>
 <body>
    <form action="/my-handling-form-page" method="post">
-       <ul>
+       <fieldset>
+           <legend>Enter your comment:</legend>
+        <ul>
            <li>
                <label for="name">Name: </label>
                <input type="text" id="name" name="user_name">
@@ -26,6 +28,8 @@
                <button type="submit">Send your message!</button>
            </li>
        </ul>
+       </fieldset>
+       
     </form> 
 </body>
 </html>
