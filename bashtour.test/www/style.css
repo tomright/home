@@ -1,0 +1,13 @@
+html {
+  width: 1920;
+  height: 4647px;
+  background: #ffffff;
+  margin: 0 auto;
+}
+header {
+  width: inherit;
+  background-image: url("/img/шапка4.jpg");
+  height: 1080px;
+  margin: 0;
+  padding: 0;
+}
