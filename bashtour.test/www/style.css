@@ -31,10 +31,20 @@ header {
 }
 .navbar {
   display: inline-block;
-  position: relative;
 }
-.logo > p {
-	margin: 0;
+.logo {
+  width: 90px;
+  height: 55px;
+}
+.navbar > nav > ul {
+  display: flex;
+}
+.logo > p,
+.logo > img {
+  display: block;
+  margin: auto;
+  padding: 0;
+  text-align: center;
 }
 nav {
   display: inline-block;
