@@ -30,14 +30,28 @@ header {
   border: none;
 }
 .navbar {
-  display: inline-block;
+  display: flex;
 }
 .logo {
   width: 90px;
   height: 55px;
+  /* margin-left: 120px; */
 }
 .navbar > nav > ul {
   display: flex;
+  list-style-type: none;
+  /* margin-left: 234px; */
+  justify-content: space-between;
+}
+.navbar > nav {
+  flex: 2;
+}
+.phone {
+  flex: 1;
+  text-align: right;
+}
+.logo {
+  flex: 1;
 }
 .logo > p,
 .logo > img {
@@ -46,6 +60,17 @@ header {
   padding: 0;
   text-align: center;
 }
-nav {
-  display: inline-block;
+
+li > a:link,
+li > a:visited,
+li > a:active,
+li > a:hover {
+  text-decoration: none;
+
+  /* margin-left: 45px; */
+}
+
+.navbar li {
+  width: 140px;
+  text-align: center;
 }
