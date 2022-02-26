@@ -2,7 +2,7 @@
    v5.0.1 | 20191019
    License: none (public domain)
 */
-
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&family=Playfair+Display:wght@700&display=swap");
 html,
 body {
   margin: 0;
@@ -35,7 +35,15 @@ header {
 .logo {
   width: 90px;
   height: 55px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
   /* margin-left: 120px; */
+}
+.orangeText {
+  color: #f88275;
 }
 .navbar > nav > ul {
   display: flex;
@@ -45,10 +53,29 @@ header {
 }
 .navbar > nav {
   flex: 2;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 22px;
+
+  /* identical to box height */
+
+  color: #111b20;
 }
 .phone {
   flex: 1;
   text-align: right;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #111b20;
+  margin-right: 120px;
+}
+.whitePhone {
+  color: white;
 }
 .logo {
   flex: 1;
@@ -66,6 +93,7 @@ li > a:visited,
 li > a:active,
 li > a:hover {
   text-decoration: none;
+  color: #111b20;
 
   /* margin-left: 45px; */
 }
@@ -73,4 +101,21 @@ li > a:hover {
 .navbar li {
   width: 140px;
   text-align: center;
+}
+.hight-text {
+  position: absolute;
+  width: 654px;
+  height: 67px;
+  left: 120px;
+  top: 375px;
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 67px;
+
+  /* identical to box height */
+
+  /* white */
+  color: #ffffff;
 }
