@@ -23,7 +23,7 @@ header {
   position: relative;
   vertical-align: top;
   width: 100%;
-  background-image: url("/img/шапка4.jpg");
+  background-image: url("/img/шапка5.jpg");
   height: 1080px;
   margin: 0;
   padding: 0;
@@ -40,12 +40,13 @@ header {
   font-weight: 500;
   font-size: 12px;
   line-height: 15px;
-  /* margin-left: 120px; */
+  margin-left: 110px;
 }
 .orangeText {
   color: #f88275;
 }
 .navbar > nav > ul {
+  margin-left: 120px;
   display: flex;
   list-style-type: none;
   /* margin-left: 234px; */
@@ -77,9 +78,9 @@ header {
 .whitePhone {
   color: white;
 }
-.logo {
-  flex: 1;
-}
+/* .logo { */
+/* flex: 1; */
+/* } */
 .logo > p,
 .logo > img {
   display: block;
@@ -102,20 +103,117 @@ li > a:hover {
   width: 140px;
   text-align: center;
 }
-.hight-text {
+.header-link > a:link,
+.header-link > a:visited,
+.header-link > a:active,
+.header-link > a:hover {
+  text-decoration: none;
+  color: #111b20;
+  /* margin-left: 45px; */
+}
+.headerBanner {
   position: absolute;
-  width: 654px;
-  height: 67px;
   left: 120px;
-  top: 375px;
+  top: 475px;
+}
+.Banner-hight-text {
+  /* width: 654px; */
+  /* height: 67px; */
   font-family: Playfair Display;
   font-style: normal;
   font-weight: bold;
-  font-size: 50px;
+  font-size: 60px;
   line-height: 67px;
+  margin-bottom: 20px;
 
   /* identical to box height */
 
   /* white */
   color: #ffffff;
+}
+.Banner-medium-text {
+  margin-top: 0px;
+  width: 537px;
+  height: 29px;
+  /* left: 120px; */
+  /* top: 462px; */
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+
+  color: #ffffff;
+}
+.header-link {
+  width: 285px;
+  height: 65px;
+  top: 521px;
+  text-align: center;
+  /* peach */
+  background: #f88275;
+  border: 1px solid #f88275;
+  border-radius: 100px;
+}
+.header-link p {
+  display: inline-block;
+  width: 131px;
+  height: 24px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+
+  /* black */
+  color: #111b20;
+}
+.whoarewe h1 {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  text-align: center;
+
+  /* identical to box height */
+
+  color: #111b20;
+}
+.whoarewe {
+}
+.flexWrapper {
+  display: flex;
+  width: 1400px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+}
+.text1 {
+  margin-bottom: 68px;
+  margin-left: 122px;
+}
+.text1 > p {
+  width: 590px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 140%;
+  color: #111b20;
+}
+.text2 {
+  margin-right: 122px;
+  /* margin-top: 96px; */
+}
+.text2 > p {
+  width: 590px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 140%;
+  /* or 28px */
+  color: #111b20;
 }
