@@ -29,6 +29,15 @@ header {
   padding: 0;
   border: none;
 }
+a:link,
+a:visited,
+a:active,
+a:hover {
+  text-decoration: none;
+  color: #111b20;
+
+  /* margin-left: 45px; */
+}
 .navbar {
   display: flex;
 }
@@ -181,8 +190,6 @@ li > a:hover {
 
   color: #111b20;
 }
-.whoarewe {
-}
 .flexWrapper {
   display: flex;
   width: 1400px;
@@ -216,4 +223,111 @@ li > a:hover {
   line-height: 140%;
   /* or 28px */
   color: #111b20;
+}
+.upcomingtours > h1 {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  color: #111b20;
+  text-align: center;
+}
+.tour {
+  display: inline-block;
+  vertical-align: top;
+  margin-bottom: 10px;
+  margin-right: 20px;
+}
+.prev {
+  position: relative;
+}
+.prev > p {
+  position: absolute;
+  width: 58px;
+  height: 17px;
+  left: 203px;
+  top: 10px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+
+  /* identical to box height */
+
+  /* black */
+  color: #111b20;
+  background-color: #f88275;
+  padding: 7px 12px 7px 12px;
+}
+.tour > a > p:nth-child(2) {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #111b20;
+  margin-bottom: 7px;
+}
+.tour > a > p:nth-child(4) {
+  display: inline;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+
+  /* identical to box height */
+
+  color: #111b20;
+}
+.tour > a > p:nth-child(5) {
+  margin-left: 30px;
+  display: inline;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+
+  /* identical to box height */
+
+  color: #111b20;
+}
+.arrow {
+  display: block;
+  text-align: right;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 20px;
+  margin-right: 28px;
+  margin-bottom: 20px;
+  /* identical to box height */
+
+  /* black */
+  color: #111b20;
+}
+.tours {
+  display: block;
+  /* text-align: center; */
+  margin: 0 auto;
+  width: 1240px;
+  height: 400px;
+}
+.arrowleft {
+  /* display: inline-block; */
+  float: left;
+  text-align: left;
+  /* ma/rgin-top: 21px; */
+}
+.arrowright {
+  /* display: inline-block; */
+  float: right;
+  text-align: right;
+  /* margin-top: 21px; */
+  margin-right: 28px;
 }
