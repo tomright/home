@@ -363,6 +363,7 @@ grid-area: img74;
 }
 
 .imghowitwas {
+  width: 1200px;
   display: grid;
   /* grid-template-columns: 1fr 1fr 1fr 1fr; */
   grid-template-columns: repeat(4, 285px);
@@ -371,12 +372,13 @@ grid-area: img74;
   grid-template-rows: auto;
   grid-template-areas: "img69 img69 img70 img73"
                       "img71 img72 img70 img74";
-  justify-items: center;
-  }
-  .howitwas {
-  display: inline-block;
+
   margin: 0 auto;
   }
+  /* .howitwas { */
+  /* display: inline-block; */
+  /* justify-content: center; */
+  /* } */
 /* .imghowitwas > img { */
 
 /* } */
