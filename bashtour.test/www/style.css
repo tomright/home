@@ -437,3 +437,12 @@ color: #000000;
   top: 25px;
   left: 75px;
 }
+.aboutuswrapper {
+  display: flex;
+}
+.sayabout > .arrowleft {
+margin-top: 40px;  
+}
+.sayabout > .arrowright {
+  margin-top: 40px;
+}
