@@ -446,3 +446,34 @@ margin-top: 40px;
 .sayabout > .arrowright {
   margin-top: 40px;
 }
+.request {
+  display: flex;
+  margin: 0 auto;
+  width: 996px;
+height: 205px;
+}
+.textrequest > h1 {
+
+font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 48px;
+
+/* identical to box height */
+
+color: #111B20;
+}
+.textrequest > p {
+  width: 386px;
+height: 112px;
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 140%;
+
+/* or 28px */
+
+color: #000000;
+}
