@@ -333,33 +333,33 @@ li > a:hover {
 }
 .howitwas > h1 {
   text-align: center;
-  font-family: 'Playfair Display';
-font-style: normal;
-font-weight: 700;
-font-size: 36px;
-line-height: 48px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
 
-/* identical to box height */
+  /* identical to box height */
 
-color: #111B20;
+  color: #111b20;
 }
 .img69 {
-grid-area: img69;
+  grid-area: img69;
 }
 .img70 {
-grid-area: img70;
+  grid-area: img70;
 }
 .img71 {
-grid-area: img71;
+  grid-area: img71;
 }
 .img72 {
-grid-area: img72;
+  grid-area: img72;
 }
 .img73 {
-grid-area: img73;
+  grid-area: img73;
 }
 .img74 {
-grid-area: img74;
+  grid-area: img74;
 }
 
 .imghowitwas {
@@ -370,67 +370,67 @@ grid-area: img74;
   column-gap: 20px;
   row-gap: 20px;
   grid-template-rows: auto;
-  grid-template-areas: "img69 img69 img70 img73"
-                      "img71 img72 img70 img74";
+  grid-template-areas:
+    "img69 img69 img70 img73"
+    "img71 img72 img70 img74";
 
   margin: 0 auto;
-  }
-  .sayabout {
-    margin: 0 auto;
-    width: 996px;
-height: 375px;
-  }
+}
+.sayabout {
+  margin: 0 auto;
+  width: 996px;
+  height: 375px;
+}
 .sayabout > h1 {
-  font-family: 'Playfair Display';
-font-style: normal;
-font-weight: 700;
-font-size: 36px;
-line-height: 48px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
 
-/* identical to box height */
+  /* identical to box height */
 
-color: #111B20;
-text-align: center;
-margin-top: 70px;
+  color: #111b20;
+  text-align: center;
+  margin-top: 70px;
 }
 .aboutus {
   display: inline-block;
   width: 488px;
-height: 237px;
-left: 222px;
-top: 3405px;
-margin: 0 auto;
-margin-left: 20px;
+  height: 237px;
+  left: 222px;
+  top: 3405px;
+  margin: 0 auto;
+  margin-left: 20px;
 
-background: #CFD9CE;
-border-radius: 15px;
+  background: #cfd9ce;
+  border-radius: 15px;
 }
 .username {
   position: relative;
   top: -50px;
   left: 176px;
-  font-family: 'Montserrat';
-font-style: normal;
-font-weight: 700;
-font-size: 20px;
-line-height: 24px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
 
-color: #000000;
+  color: #000000;
 }
 .feedback {
-position: relative;
-left: 75px;
-bottom: 25px;
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 300;
-font-size: 20px;
-line-height: 24px;
-width: 339px;
-height: 96px;
+  position: relative;
+  left: 75px;
+  bottom: 25px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 24px;
+  width: 339px;
+  height: 96px;
 
-
-color: #000000;
+  color: #000000;
 }
 .aboutus > img {
   position: relative;
@@ -441,7 +441,7 @@ color: #000000;
   display: flex;
 }
 .sayabout > .arrowleft {
-margin-top: 40px;  
+  margin-top: 40px;
 }
 .sayabout > .arrowright {
   margin-top: 40px;
@@ -450,30 +450,123 @@ margin-top: 40px;
   display: flex;
   margin: 0 auto;
   width: 996px;
-height: 205px;
+  height: 280px;
+  justify-content: space-between;
 }
 .textrequest > h1 {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
 
-font-family: 'Playfair Display';
-font-style: normal;
-font-weight: 700;
-font-size: 36px;
-line-height: 48px;
+  /* identical to box height */
 
-/* identical to box height */
-
-color: #111B20;
+  color: #111b20;
 }
 .textrequest > p {
   width: 386px;
-height: 112px;
-  font-family: 'Montserrat';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 140%;
+  height: 112px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 140%;
 
-/* or 28px */
+  /* or 28px */
 
-color: #000000;
+  color: #000000;
+}
+input[type="text"] {
+  font-family: inherit; /* 1 */
+  font-size: inherit; /* 1 */
+  line-height: inherit; /* 1 */
+  margin: 0; /* 2 */
+}
+.formreq {
+  width: 488px;
+  height: 205px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 22px;
+  color: #9da39d;
+  margin-top: 40px;
+}
+.form_button {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 27px;
+
+  /* identical to box height */
+
+  /* black */
+  color: #111b20;
+}
+.form_input {
+  padding-left: 40px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 22px;
+
+  /* identical to box height */
+
+  color: #111b20;
+  width: 448px;
+  height: 55px;
+  background: transparent;
+  border: 2px solid #777a77;
+  box-sizing: border-box;
+  border-radius: 100px;
+  transition: 0.3s;
+}
+.form_group {
+  position: relative;
+  margin-bottom: 20px;
+}
+.form_label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: 0.3s;
+  margin: 17px 0px 0px 40px;
+}
+.form_input:active,
+.form_input:focus {
+  outline: none;
+}
+.form_input::-moz-focus-inner {
+  border: 0;
+}
+.form_input:focus {
+  border: 2px solid #f88275;
+}
+.form_button {
+  width: 285px;
+  height: 55px;
+  background: #f88275;
+  border-radius: 100px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.form_button:focus,
+.form_button:hover {
+  background: #ffa755;
+}
+.form_input:focus ~ .form_label,
+.form_input:not(:placeholder-shown) ~ .form_label {
+  top: -18px;
+  font-size: 10px;
+}
+footer {
+  background: url(/img/futter.png) top left / 1980px 680px no-repeat;
+  width: 1980px;
+  height: 680px;
 }
