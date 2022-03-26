@@ -570,3 +570,11 @@ footer {
   width: 1980px;
   height: 680px;
 }
+.footernote {
+  display: flex;
+  width: 386px;
+  height: 295px;
+
+  background: #ffffff;
+  border-radius: 15px;
+}
