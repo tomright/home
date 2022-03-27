@@ -571,10 +571,64 @@ footer {
   height: 680px;
 }
 .footernote {
-  display: flex;
+  position: relative;
+  left: 222px;
+  top: 100px;
   width: 386px;
   height: 295px;
-
   background: #ffffff;
   border-radius: 15px;
+}
+.footernote > h1 {
+  width: 305px;
+  height: 96px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  color: #111b20;
+  margin-left: 39px;
+}
+.contact {
+  display: flex;
+  width: 316px;
+  height: 124px;
+  /* flex-direction: row; */
+  /* flex-wrap: wrap; */
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 24px;
+  /* black */
+  margin-left: 39px;
+  color: #111b20;
+}
+
+.monserat500 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 140%;
+  width: 282px;
+}
+.imgrow {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.imgrow > img {
+  margin-bottom: 20px;
+}
+.textrow {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.textrow > p {
+  margin-bottom: 10px;
 }

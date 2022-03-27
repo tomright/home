@@ -1,0 +1,35 @@
+<div class="unificationimg">
+            <img src="/img/point.svg" alt="Пиктограмма маркера" />
+            <p>
+              <span class="monserat500"
+                >г. Уфа, ул. Карла Маркса, 19 <br
+              /></span>
+              <span class="marginhack">c 10:00 до 19:00 </span>
+            </p>
+          </div>
+          <div class="unificationimg">
+            <img src="/img/cell.svg" alt="Пиктограмма телефона" />
+            <p>+ 7 (999) 123 45 67</p>
+          </div>
+          <div class="unificationimg">
+            <img src="/img/mail.svg" alt="Пиктограмма конверта" />
+            <p>bashtour@gmail.com</p>
+          </div>
+		  
+		  
+		  
+		  
+.unificationimg > img,
+.unificationimg > p {
+  display: inline;
+  vertical-align: middle;
+}
+.unificationimg > p {
+  margin-left: 5px;
+}
+.unificationimg {
+  display: inline;
+}
+.marginhack {
+  margin-left: 26px;
+}
