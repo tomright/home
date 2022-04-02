@@ -614,21 +614,52 @@ footer {
   line-height: 140%;
   width: 282px;
 }
-.imgrow {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.imgrow > img {
-  margin-bottom: 20px;
-}
+/* .imgrow { */
+/* display: flex; */
+/* flex-direction: column; */
+/* justify-content: space-between; */
+/* align-items: center; */
+/* } */
+/* .imgrow > img { */
+/* } */
 .textrow {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-between;
+  align-items: flex-start;
 }
 .textrow > p {
-  margin-bottom: 10px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.textrowPoint::before {
+  content: " ";
+  position: relative;
+  top: 5px;
+  background-image: url(/img/point.svg);
+  width: 17px;
+  height: 25px;
+  display: inline-block;
+  margin-right: 8px;
+}
+.textrowTel::before {
+  content: " ";
+  position: relative;
+  top: 5px;
+  background-image: url(/img/cell.svg);
+  width: 22px;
+  height: 22px;
+  display: inline-block;
+  margin-right: 8px;
+}
+.textrowMail::before {
+  content: " ";
+  position: relative;
+  top: 5px;
+  background-image: url(/img/mail.svg);
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  margin-right: 8px;
 }
