@@ -30,7 +30,6 @@ header {
   border: none;
 }
 a:link,
-a:visited,
 a:active,
 a:hover {
   text-decoration: none;
@@ -40,6 +39,7 @@ a:hover {
 }
 .navbar {
   display: flex;
+  justify-content: space-around;
 }
 .logo {
   width: 90px;
@@ -49,20 +49,26 @@ a:hover {
   font-weight: 500;
   font-size: 12px;
   line-height: 15px;
-  margin-left: 110px;
+  /* margin-left: 110px; */
+}
+.logo > img {
+  width: 45px;
+  height: 45px;
 }
 .orangeText {
   color: #f88275;
 }
 .navbar > nav > ul {
-  margin-left: 120px;
+  /* margin-left: 120px; */
   display: flex;
   list-style-type: none;
   /* margin-left: 234px; */
-  justify-content: space-between;
+  justify-content: center;
 }
 .navbar > nav {
-  flex: 2;
+  display: flex;
+  justify-content: center;
+  width: 600px;
   font-family: Montserrat;
   font-style: normal;
   font-weight: 300;
@@ -74,7 +80,6 @@ a:hover {
   color: #111b20;
 }
 .phone {
-  flex: 1;
   text-align: right;
   font-family: Montserrat;
   font-style: normal;
@@ -82,7 +87,7 @@ a:hover {
   font-size: 20px;
   line-height: 24px;
   color: #111b20;
-  margin-right: 120px;
+  /* margin-right: 120px; */
 }
 .whitePhone {
   color: white;
@@ -567,8 +572,8 @@ input[type="text"] {
 }
 
 .footerwrapper {
-  background: url(/img/futter.png) top left / 1980px 680px no-repeat;
-width: 1980px;
+  background: url(/img/futter1.jpg) top left / 1900px 680px no-repeat;
+width: 1900px;
   height: 680px;
 
 }
@@ -674,5 +679,41 @@ footer {
 .footer {
   display: flex;
   height: 115px;
+  justify-content: space-around;
 align-items: center;
+}
+.wihtelogo {
+  color: white;
+}
+.footer > .logo > img {
+  width: 42px;
+  height: 42px;
+}
+.social {
+  width: 173px;
+  height: 20px;
+  display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: flex-start;
+}
+.social img {
+  width: 25px;
+  height: 25px;
+}
+ .copyright{
+  display: flex;
+width: 470px;
+}
+.copyright > a {
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 17px;
+
+/* identical to box height */
+
+color: rgba(255, 255, 255, 0.5);
+
 }
