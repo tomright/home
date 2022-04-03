@@ -565,10 +565,12 @@ input[type="text"] {
   top: -18px;
   font-size: 10px;
 }
-footer {
+
+.footerwrapper {
   background: url(/img/futter.png) top left / 1980px 680px no-repeat;
-  width: 1980px;
+width: 1980px;
   height: 680px;
+
 }
 .footernote {
   position: relative;
@@ -588,6 +590,7 @@ footer {
   font-size: 36px;
   line-height: 48px;
   color: #111b20;
+  padding-top: 30px;
   margin-left: 39px;
 }
 .contact {
@@ -662,4 +665,14 @@ footer {
   height: 24px;
   display: inline-block;
   margin-right: 8px;
+}
+footer {
+  display: flex;
+  background: #111B20;
+  flex-direction: column;
+}
+.footer {
+  display: flex;
+  height: 115px;
+align-items: center;
 }
