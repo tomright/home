@@ -280,3 +280,59 @@ a {
   /* black */
   color: #161f21;
 }
+.whatWe > h1 {
+  padding-top: 180px;
+  text-align: center;
+  font-family: "Merriweather";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 40px;
+
+  /* black */
+  color: #161f21;
+}
+.recipeBlock {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 1201px;
+  height: 586px;
+}
+.recipe {
+  display: flex;
+  width: 387px;
+  height: 223px;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.recipe > h2 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+
+  /* identical to box height */
+  text-align: center;
+  font-feature-settings: "pnum" on, "lnum" on;
+
+  /* black */
+  color: #161f21;
+}
+.recipe > p {
+  padding-top: 20px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+
+  /* or 150% */
+  text-align: center;
+  font-feature-settings: "pnum" on, "lnum" on;
+
+  /* black */
+  color: #161f21;
+}
