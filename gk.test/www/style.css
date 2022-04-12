@@ -8,6 +8,7 @@ a {
 }
 .mainwrapper {
   width: 1600px;
+  margin: 0 auto;
 }
 .forbackgroundimage {
   background-image: url(/img/Ключевой\ образ.jpg);
@@ -280,7 +281,7 @@ a {
   /* black */
   color: #161f21;
 }
-.whatWe > h1 {
+.whatWe {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -288,11 +289,14 @@ a {
   align-items: center;
   padding-top: 180px;
   text-align: center;
+}
+.whatWe > h1 {
   font-family: "Merriweather";
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
   line-height: 40px;
+  padding-bottom: 90px;
 
   /* black */
   color: #161f21;
@@ -306,6 +310,7 @@ a {
 }
 .recipe {
   display: flex;
+  justify-content: center;
   width: 387px;
   height: 223px;
   flex-direction: column;
