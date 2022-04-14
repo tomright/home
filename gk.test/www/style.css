@@ -346,3 +346,95 @@ a {
   /* black */
   color: #161f21;
 }
+.workprofessional {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+.workprofessional > h1 {
+  font-family: "Merriweather";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 40px;
+  text-align: center;
+  /* black */
+  color: #161f21;
+  padding-bottom: 50px;
+}
+.rollerblock {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.workerphoto {
+  padding-left: 18px;
+}
+.workerportfolio {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 881px;
+  height: 264px;
+  /* black */
+  border: 2px solid #161f21;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+.workertext {
+  width: 597px;
+  height: 111px;
+}
+.workertextname {
+  padding-bottom: 20px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+
+  /* identical to box height */
+  font-feature-settings: "pnum" on, "lnum" on;
+
+  /* black */
+  color: #161f21;
+}
+.workertextfeedback {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+
+  /* or 150% */
+  font-feature-settings: "pnum" on, "lnum" on;
+
+  /* black */
+  color: #161f21;
+}
+.zerno {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  padding-right: 47px;
+}
+.zernolink {
+  background-image: url(/img/ZernoPassive.svg);
+  background-repeat: no-repeat;
+  width: 16px;
+  height: 16px;
+  content: "";
+  padding-top: 50px;
+  padding-right: 47px;
+}
+.zernolink:hover {
+  background-image: url(/img/ZernoActive.svg);
+  background-repeat: no-repeat;
+  width: 16px;
+  height: 16px;
+  padding-top: 50px;
+  padding-right: 47px;
+  content: "";
+}
