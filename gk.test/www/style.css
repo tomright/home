@@ -444,8 +444,8 @@ a {
   align-items: center;
   width: 1200px;
   height: 283px;
-  border: 3px red solid;
   margin: 0 auto;
+  padding-top: 180px;
 }
 .rewardsblock > h1 {
   font-family: "Merriweather";
@@ -459,6 +459,7 @@ a {
 }
 .rewards {
   display: flex;
+  gap: 20px;
 }
 .rewardbarista {
   font-family: "Raleway";
@@ -471,6 +472,7 @@ a {
   font-feature-settings: "pnum" on, "lnum" on;
   /* black */
   color: #161f21;
+  padding-bottom: 20px;
 }
 .rewardtext {
   font-family: "Raleway";
@@ -489,9 +491,50 @@ a {
 .rewardimg {
   width: 120px;
   height: 100px;
+  padding-left: 5px;
 }
 .reward {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
+}
+.delivery {
+  background: url(/img/turkacut.png);
+  background-repeat: no-repeat;
+  width: 1400px;
+  height: 611px;
+  border: 1px red solid;
+}
+.deliveryheader {
+  font-family: "Merriweather";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 40px;
+  padding-bottom: 50px;
+
+  /* black */
+  color: #161f21;
+}
+.deliverytext {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+
+  /* or 150% */
+  font-feature-settings: "pnum" on, "lnum" on;
+
+  /* black */
+  color: #161f21;
+  padding-bottom: 43px;
+}
+.deliverycontain {
+  float: right;
+  position: relative;
+  top: 173px;
+  width: 508px;
+  height: 266px;
 }
