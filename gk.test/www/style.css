@@ -6,6 +6,29 @@ html {
 a {
   text-decoration: none;
 }
+.FontMerriweatherNormal400 {
+  font-family: "Merriweather";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 40px;
+
+  /* black */
+  color: #161f21;
+}
+.FontRalewayNormal400 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+
+  /* or 150% */
+  font-feature-settings: "pnum" on, "lnum" on;
+
+  /* black */
+  color: #161f21;
+}
 .mainwrapper {
   width: 1600px;
   margin: 0 auto;
@@ -504,7 +527,7 @@ a {
   background-repeat: no-repeat;
   width: 1400px;
   height: 611px;
-  border: 1px red solid;
+  padding-bottom: 180px;
 }
 .deliveryheader {
   font-family: "Merriweather";
@@ -537,4 +560,33 @@ a {
   top: 173px;
   width: 508px;
   height: 266px;
+}
+.maps {
+  display: flex;
+  width: 1315.67px;
+  height: 450.4px;
+  justify-content: space-between;
+}
+.addres {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+.map {
+  width: 793px;
+  height: 450px;
+}
+.iconmaps::before {
+  content: "";
+  position: relative;
+  background-image: url(/img/carbon_time.svg);
+  width: 32px;
+  height: 32px;
+  display: inline-block;
+}
+.addresCompositor {
+  display: flex;
+  gap: 15px;
+  align-items: center;
 }
