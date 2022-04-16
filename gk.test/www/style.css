@@ -6,7 +6,7 @@ html {
 a {
   text-decoration: none;
 }
-.FontMerriweatherNormal400 {
+.FontMerriweatherNormal400Black {
   font-family: "Merriweather";
   font-style: normal;
   font-weight: 400;
@@ -16,7 +16,20 @@ a {
   /* black */
   color: #161f21;
 }
-.FontRalewayNormal400 {
+.FontRalewayNormal400White {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+
+  /* identical to box height, or 150% */
+  font-feature-settings: "pnum" on, "lnum" on;
+
+  /* white */
+  color: #fcfcfc;
+}
+.FontRalewayNormal400Black {
   font-family: "Raleway";
   font-style: normal;
   font-weight: 400;
@@ -28,6 +41,19 @@ a {
 
   /* black */
   color: #161f21;
+}
+.FontRalewayNormal600White {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+
+  /* identical to box height */
+  font-feature-settings: "pnum" on, "lnum" on;
+
+  /* white */
+  color: #fcfcfc;
 }
 .mainwrapper {
   width: 1600px;
@@ -46,20 +72,7 @@ a {
 .navbar {
   display: flex;
   justify-content: flex-start;
-}
-.navbar a {
-  font-family: "Raleway";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  margin-right: 50px;
-
-  /* identical to box height, or 150% */
-  font-feature-settings: "pnum" on, "lnum" on;
-
-  /* black */
-  color: #161f21;
+  gap: 50px;
 }
 .logo {
   padding-left: 20px;
@@ -565,7 +578,13 @@ a {
   display: flex;
   width: 1315.67px;
   height: 450.4px;
-  justify-content: space-between;
+  gap: 100px;
+  padding-bottom: 180px;
+  margin: 0 auto;
+  background: url(/img/coffepiceofshit.svg);
+  background-position-x: 1170px;
+  background-position-y: 316px;
+  background-repeat: no-repeat;
 }
 .addres {
   display: flex;
@@ -589,4 +608,51 @@ a {
   display: flex;
   gap: 15px;
   align-items: center;
+}
+footer {
+  width: 1600px;
+  height: 339px;
+  background: #161f21;
+}
+.footerwrapper {
+  display: flex;
+  justify-content: space-around;
+  width: 1019px;
+  height: 239px;
+  padding-top: 50px;
+  padding-left: 200px;
+}
+.footernavbar {
+  flex-direction: column;
+}
+.footernavbarfixgap {
+  gap: 20px;
+}
+.menufuter {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.contects {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.minisocialblock {
+  display: flex;
+  gap: 30px;
+}
+.footerbutton {
+  width: 204px;
+  height: 50px;
+  background: #eb8b35;
+  border-radius: 5px;
+  text-align: center;
+}
+.footerbuttonposition {
+  padding-top: 13px;
+}
+.menuwrapper {
+  display: flex;
+  gap: 115px;
 }
