@@ -6,6 +6,21 @@ html {
 a {
   text-decoration: none;
 }
+body {
+  min-width: 1600px;
+}
+.FontMerriweatherNormal400Black48px {
+  font-family: "Merriweather";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 60px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  /* black */
+  color: #161f21;
+}
 .FontMerriweatherNormal400Black {
   font-family: "Merriweather";
   font-style: normal;
@@ -55,6 +70,19 @@ a {
   /* white */
   color: #fcfcfc;
 }
+.FontRalewayNormal600Black {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+
+  /* identical to box height */
+  font-feature-settings: "pnum" on, "lnum" on;
+
+  /* black */
+  color: #161f21;
+}
 .mainwrapper {
   width: 1600px;
   margin: 0 auto;
@@ -95,32 +123,11 @@ a {
   height: 278px;
   box-sizing: border-box;
 }
-.herocontent > h1 {
-  font-family: "Merriweather";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 48px;
-  line-height: 60px;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
+.h1herocontentposition {
   padding-bottom: 30px;
-
-  /* black */
-  color: #161f21;
 }
-.herocontent > p {
-  font-family: "Raleway";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
+.pherocontentposition {
   padding-bottom: 30px;
-
-  /* or 150% */
-  font-feature-settings: "pnum" on, "lnum" on;
-
-  /* black */
-  color: #161f21;
 }
 .buttoncontainer {
   width: 183px;
@@ -132,30 +139,12 @@ a {
 }
 
 .buttonfindme {
-  font-family: "Raleway";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-
-  /* identical to box height, or 150% */
-  font-feature-settings: "pnum" on, "lnum" on;
-
-  /* black */
-  color: #161f21;
   padding-top: 13px;
 }
 .menu {
   padding-bottom: 180px;
 }
-.menu > h1 {
-  font-family: "Merriweather";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 32px;
-  line-height: 40px;
-  /* black */
-  color: #161f21;
+.menuh1position {
   text-align: center;
   padding-bottom: 50px;
 }
@@ -165,31 +154,11 @@ a {
   gap: 41px;
   padding-bottom: 20px;
 }
-.category > a {
-  font-family: "Raleway";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-
-  /* identical to box height, or 150% */
-  font-feature-settings: "pnum" on, "lnum" on;
-
-  /* black */
+.colorLink_a {
   color: #161f21;
 }
-.category > a:hover {
+.colorLink_a:hover {
   /* H3 Параграф текста 16px */
-  font-family: "Raleway";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-
-  /* identical to box height, or 150% */
-  font-feature-settings: "pnum" on, "lnum" on;
-
-  /* orange */
   color: #eb8b35;
 }
 .product {
@@ -209,19 +178,7 @@ a {
   box-sizing: border-box;
   border-radius: 10px;
 }
-.prodname {
-  font-family: "Raleway";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 19px;
 
-  /* identical to box height */
-  font-feature-settings: "pnum" on, "lnum" on;
-
-  /* black */
-  color: #161f21;
-}
 .prodcost {
   font-family: "Raleway";
   font-style: normal;
@@ -273,17 +230,10 @@ a {
   background-image: url(/img/infocontentbackground.png), url(/img/coffepice.svg);
   background-position: top 90px left 117px, bottom left;
   background-repeat: no-repeat, no-repeat;
+  margin: 0 auto;
 }
-.info > h1 {
+.infoh1center {
   text-align: center;
-  font-family: "Merriweather";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 32px;
-  line-height: 40px;
-
-  /* black */
-  color: #161f21;
 }
 .infocontent {
   width: 610px;
@@ -291,31 +241,8 @@ a {
   float: right;
   padding-top: 130px;
 }
-.infocontent > h2 {
-  font-family: "Raleway";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 19px;
-
-  /* identical to box height */
-  font-feature-settings: "pnum" on, "lnum" on;
+.infocontenth2position {
   padding-bottom: 20px;
-  /* black */
-  color: #161f21;
-}
-.infocontent > p {
-  font-family: "Raleway";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-
-  /* or 150% */
-  font-feature-settings: "pnum" on, "lnum" on;
-
-  /* black */
-  color: #161f21;
 }
 .whatWe {
   display: flex;
