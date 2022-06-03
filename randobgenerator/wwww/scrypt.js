@@ -23,15 +23,26 @@ var insertZ = ['spontaneously', 'combusted',
 
 function result() {
     var newStory = storyText;
+  var xItem = randomValueFromArray(); 
+  var yItem = randomValueFromArray();
+  var zItem = randomValueFromArray();
+  newStory = newStory.replace(':insertx:', xItem);
+  newStory = newStory.replace(':inserty:', yItem);
+newStory = newStory.replace(':insertz:', zItem);
+
+
   
+
   if(customName.value !== '') {
     const name = customName.value;
-
+    newStory = newStory.replace('Bob', name)
   }
 
   if(document.getElementById("uk").checked) {
-    const weight = Math.round(300);
-    const temperature =  Math.round(94);
+    const weight = Math.round(300 * 0.0714285714220916) + ' stone';
+    const temperature =  Math.round((94 - 32) / 1,8) + ' temperature';
+    newStory = newStory.replace('94 farenheit', temperature);
+  newStory = newStory.replace('300  pounds', weight);
 
   }
 
