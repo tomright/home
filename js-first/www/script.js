@@ -11,4 +11,19 @@ console.log(buttons.length);
     for (let i = 0; i < buttons.length; i++) {
         buttons[i].addEventListener('click', createParagraph);
     }
+    
+const obj = {
+    name: 'Jonson',
+    age: 21,
+    gender: 'male'
+};
+
+console.log(obj);
+let secondName = 'Knightley'
+obj.name = `Kira ${secondName}`;
+obj.gender = 'female';
+console.log(obj.name);
+console.log(obj);
+
 // });
+

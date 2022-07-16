@@ -1,3 +1,5 @@
+'use strict';
+
 const btn = document.querySelector("button");
 
 function random(number) {
@@ -13,5 +15,4 @@ function bgChange(e) {
 function bgReset() {
   document.body.style.backgroundColor = "white";
 }
-
-btn.addEventListener('click', bgChange);
+btn.addEventListener("click", bgChange);
