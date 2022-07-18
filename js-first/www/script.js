@@ -74,7 +74,7 @@ while (number < 50) {
 }
 console.log(newnumber);
 
-const leghtPiramid = 20;
+const leghtPiramid = 190;
 let star = "*";
 let space = "";
 let spacer = leghtPiramid / 2;
@@ -82,7 +82,8 @@ console.log(spacer);
 space = " ".repeat(spacer);
 
 for (let i = 1; i < leghtPiramid; i = i + 2) {
-    console.log(space.slice(0, spacer - i + 1) + star.repeat(i));
+  spacer -= 1;
+    console.log(space.slice(0, spacer) + star.repeat(i));
 }
 
 // console.log(space + '*');
