@@ -1,3 +1,4 @@
+"use strict";
 // document.addEventListener("DOMContentLoaded", function () {
 function createParagraph() {
   let para = document.createElement("p");
@@ -56,4 +57,33 @@ if (true && false && setTimeout(() => factorial(15), 4000) && false) {
   console.log("Не сработало!");
 }
 
-console.log( 5 === 5 && 3 > 1 || 5);
+console.log((5 === 5 && 3 > 1) || 5);
+
+let number = 10;
+
+// for (let i = 0; i < 50; i++) {
+//     console.log(`Изначальное число number=${number}`);
+//     number += i;
+//     console.log(`Число number = ${number}, i=${i}`);
+// }
+// console.log(number);
+let newnumber = 0;
+while (number < 50) {
+  newnumber += 1234 + 5678;
+  number++;
+}
+console.log(newnumber);
+
+const leghtPiramid = 20;
+let star = "*";
+let space = "";
+let spacer = leghtPiramid / 2;
+console.log(spacer);
+space = " ".repeat(spacer);
+
+for (let i = 1; i < leghtPiramid; i = i + 2) {
+    console.log(space.slice(0, spacer - i + 1) + star.repeat(i));
+}
+
+// console.log(space + '*');
+// console.log(space.slice(0, spacer - 1) + "***");
