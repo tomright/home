@@ -33,3 +33,12 @@ const num = 4.49;
 console.log(parseInt(num));
 
 console.log(parseFloat(num));
+
+function first(string, callback) {
+  console.log(string);
+  callback();
+}
+function callback() {
+  console.log('Second function');
+}
+first('First function', callback);
